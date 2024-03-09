@@ -49,7 +49,7 @@ def detect_glaucoma(uploaded_file):
     # cv2.imwrite("image.jpg", roi_image)
 
     # Load the pre-trained model
-    model = load_model("/workspaces/GLAUCOMA_DETECTIONS/src/detect_glaucoma/GLAUCOMA_DETECTION.h5")
+    model = load_model('GLAUCOMA_DETECTION.h5')
     model.compile(loss='binary_crossentropy',
               optimizer=Adam(1e-4),
               metrics=['binary_accuracy'])
