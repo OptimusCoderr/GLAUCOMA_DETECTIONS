@@ -2,7 +2,7 @@ import streamlit as st
 from src.detect_glaucoma.utils import detect_glaucoma
 # from src.detect_glaucoma.glaucoma import prediction
 from src.detect_glaucoma.utils import  detect_glaucoma
-import cv2
+
 from src.detect_glaucoma.utils import detect_glaucoma
 import traceback
 from PIL import Image
