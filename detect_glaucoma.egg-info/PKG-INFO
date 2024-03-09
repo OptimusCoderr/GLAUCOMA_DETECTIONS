@@ -1,14 +1,5 @@
 Metadata-Version: 2.1
-Name: detect_glaucoma
+Name: detect-glaucoma
 Version: 0.0.1
 Author: OptimusCoderr
 Author-email: chukwuebukaanulunko@gmail.com
-Requires-Dist: keras_cv
-Requires-Dist: keras
-Requires-Dist: tensorflow
-Requires-Dist: opencv-python
-Requires-Dist: pandas
-Requires-Dist: numpy
-Requires-Dist: matplotlib
-Requires-Dist: streamlit
-Requires-Dist: Pillow

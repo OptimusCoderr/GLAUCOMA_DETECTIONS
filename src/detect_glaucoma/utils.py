@@ -46,7 +46,7 @@ def detect_glaucoma(uploaded_file):
     roi_image = clahe_op.apply(green_channel)
 
     # Save the preprocessed image
-    cv2.imwrite("image.jpg", roi_image)
+    # cv2.imwrite("image.jpg", roi_image)
 
     # Load the pre-trained model
     model = load_model("src\detect_glaucoma\GLAUCOMA_DETECTION.h5")
