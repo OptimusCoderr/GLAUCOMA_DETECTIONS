@@ -75,7 +75,7 @@ def detect_glaucoma(uploaded_file):
         shuffle=False , # No need to shuffle since there's only one image
         verbose = 0
     )
-
+#
     prediction = model.predict(image_generator)
      # Define thresholds for classifying predictions
     # Define thresholds for classifying predictions
