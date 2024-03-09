@@ -1,0 +1,14 @@
+keras_cv
+keras 
+tensorflow 
+opencv-python 
+pandas 
+numpy 
+tqdm 
+joblib 
+matplotlib
+streamlit
+Pillow
+
+
+-e .
