@@ -9,6 +9,8 @@ joblib
 matplotlib
 streamlit
 Pillow
+libgl1-mesa-glx
+xvfb
 
 
 -e .
